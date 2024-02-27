@@ -1,7 +1,9 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Jrpikong\SmartExpense;
+
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

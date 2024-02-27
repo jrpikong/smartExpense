@@ -4,5 +4,4 @@ namespace Jrpikong\SmartExpense;
 
 class SmartExpense
 {
-
 }

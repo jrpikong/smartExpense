@@ -7,7 +7,6 @@ use Filament\Panel;
 
 class SmartExpensePlugin implements Plugin
 {
-
     public function getId(): string
     {
         return 'smart-expense';
@@ -15,7 +14,7 @@ class SmartExpensePlugin implements Plugin
 
     public function register(Panel $panel): void
     {
-//        $panel->res
+        //        $panel->res
         // TODO: Implement register() method.
     }
 
