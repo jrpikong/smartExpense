@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Jrpikong\SmartExpense;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
@@ -8,17 +8,17 @@ use Filament\Support\Assets\Theme;
 use Filament\Support\Color;
 use Filament\Support\Facades\FilamentAsset;
 
-class Skeleton implements Plugin
+class SmartExpense implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'smartexpense';
     }
 
     public function register(Panel $panel): void
     {
         FilamentAsset::register([
-            Theme::make('skeleton', __DIR__ . '/../resources/dist/skeleton.css'),
+            Theme::make('smartexpense', __DIR__ . '/../resources/dist/smartexpense.css'),
         ]);
 
         $panel
@@ -29,7 +29,7 @@ class Skeleton implements Plugin
             ->dangerColor(Color::Rose)
             ->successColor(Color::Green)
             ->grayColor(Color::Gray)
-            ->theme('skeleton');
+            ->theme('smartexpense');
     }
 
     public function boot(Panel $panel): void
