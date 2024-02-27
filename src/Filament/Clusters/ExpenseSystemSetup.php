@@ -15,7 +15,7 @@ class ExpenseSystemSetup extends Cluster
         return __('System Setup');
     }
 
-    protected static ?string $navigationGroup = 'Expense';
+    protected static ?string $navigationGroup = 'EXPENSE';
 
     protected static ?int $navigationSort = 10;
 }
