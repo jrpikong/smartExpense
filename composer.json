@@ -40,7 +40,7 @@
     "autoload": {
         "psr-4": {
             "Jrpikong\\SmartExpense\\": "src/",
-            "Jrpikong\\SmartExpense\\Database\\Factories\\": "database/factories/"
+            "Jrpikong\\SmartExpense\\Database\\Migrations\\": "database/migrations/"
         }
     },
     "autoload-dev": {
